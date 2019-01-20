@@ -38,10 +38,10 @@ html,body{
 }
 
 .loading svg{
-  animation: squeeze 2.3s infinite;
+  animation: squeeze 0.75s infinite;
 }
 #inner{
-  animation: blink 2.3s infinite;
+  animation: blink 0.75s infinite;
 }
 @keyframes blink {
   90%{
