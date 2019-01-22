@@ -157,10 +157,10 @@ window.addEventListener("load",function(){
     var $svg = $('svg');
     $svg.hover(
       function() {
-        tl.timeScale(0.65);
+        tl.timeScale(0.1);
       },
       function() {
-        tl.timeScale(0.1);
+        tl.timeScale(0.65);
       });
 
     function getRandom(min, max) {
