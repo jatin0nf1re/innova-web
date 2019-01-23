@@ -2,9 +2,7 @@
 
 window.addEventListener("load",function(){
   var load_screen= document.getElementById("loader");
-  $('.after-load').hide();
   document.body.removeChild(load_screen);
-  $('.after-load').show();
 
   if($(window).width()> 425){
     $('.nav').hide();
