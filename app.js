@@ -10,6 +10,10 @@ app.get("/",function(req,res){
   res.render("index");
 });
 
+app.get("/competitions", function(req,res){
+  res.render("competitions");
+});
+
 app.listen(port, function() {
     console.log('Our app is running on http://localhost:' + port);
 });
