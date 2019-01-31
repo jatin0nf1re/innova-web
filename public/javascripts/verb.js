@@ -5,6 +5,7 @@ window.addEventListener("load",function(){
   document.body.removeChild(load_screen);
 
   if($(window).width()> 425){
+    $('.clickme').hide();
     $('.nav').hide();
     $('.mainpage .nav').show();
     AOS.init();
@@ -236,9 +237,7 @@ window.addEventListener("load",function(){
                       });
 
                   });
-                  // if($(window).width()<= 425){
-                  //   $('c-ount').css('font-size','15px');
-                  // }
+
     });
     $(".m").click(function() {
         $('.events-bg,.team,.sponsors-bg,.about').hide();

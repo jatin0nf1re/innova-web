@@ -42,10 +42,9 @@ app.get("/adminevents",isLoggedIn,function(req,res){
   res.render("adminevents");
 });
 
-//COMPETITIONS===================
-
-//index
-app.get
+app.get("/comingsoon",function(req,res){
+  res.render("comingsoon");
+});
 
 
 

@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', monospace;
+  font-weight: bold;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,7,37,1) 100%);
+}
+
+.nav a{
+  font-size: 40px;
+  color:white;
+  text-decoration: none;
+}
+
+.nav a:hover{
+  color: white;
+}
+
+.nav{
+  margin: 3%;
+  width: 90%;
+  height:6%;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav button:focus{
+  outline: none;
+}
+
+.nav button{
+  background-color: transparent;
+  border:0;
+}
+
+.nav button a{
+  margin-bottom: 10px;
+}
+
+.nav button:hover{
+  background-color: transparent;
+  border:0;
+  border-bottom: 3px solid white;
+}
+
+h1 {
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 10vw;
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  animation: .8s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }
+}
